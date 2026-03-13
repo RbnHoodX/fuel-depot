@@ -1,0 +1,11 @@
+"""Configuration constants for the fuel depot system."""
+
+STANDARD_TANK = "standard"
+RESERVE_TANK = "reserve"
+VALID_KINDS = (STANDARD_TANK, RESERVE_TANK)
+
+FUEL_PRECISION = 2
+MAX_FUEL_WARNING = 50000
+DEFAULT_NOTE = ""
+DEFAULT_BATCH = ""
+MIN_TRANSFER_AMOUNT = 1
